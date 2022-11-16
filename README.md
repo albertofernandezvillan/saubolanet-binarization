@@ -1,5 +1,10 @@
-# sauvola-net
+# sauvolanet binarization algorithm
+
 This is a simple Python package of the oficial repository of [SauvolaNet: Learning Adaptive Sauvola Network.](https://github.com/Leedeng/SauvolaNet)
+
+## Installation and use
+
+See file [sauvola_net_demo.ipynb](https://github.com/albertofernandezvillan/saubolanet-binarization/blob/main/sauvola_net_demo.ipynb)
 
 
 
