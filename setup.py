@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='sauvolanet',
-    version='0.0.9',
+    version='0.0.10',
     description='Sauvolanet binarization algorithm',
     long_description=long_description,
     long_description_content_type="text/markdown",
