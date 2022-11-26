@@ -21,7 +21,8 @@ setuptools.setup(
         )
     ],
     include_package_data=True,
-    package_data={'': ['pretrained_models/*.h5'],
-                  '': ['dataset/*.png']
+    package_dir={'sauvolanet': 'sauvolanet'},
+    package_data={'sauvolanet': ['pretrained_models/*.h5'],
+                  'sauvolanet': ['dataset/*.png']
                   },
 )
