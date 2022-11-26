@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='sauvolanet',
-    version='0.0.2',
+    version='0.0.3',
     description='Sauvolanet binarization algorithm',
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -22,7 +22,7 @@ setuptools.setup(
     ],
     include_package_data=True,
     package_dir={'sauvolanet': 'sauvolanet'},
-    package_data={'sauvolanet': ['pretrained_models/*.h5'],
+    package_data={'sauvolanet': ['pretrained_models/weights.h5'],
                   'sauvolanet': ['dataset/*.png']
                   },
 )
