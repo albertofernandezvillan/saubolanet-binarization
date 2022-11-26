@@ -1,0 +1,2 @@
+include sauvolanet/pretrained_models/weights.h5
+include sauvolanet/dataset/*
