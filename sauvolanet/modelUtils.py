@@ -6,7 +6,7 @@ from tensorflow.keras.optimizers import *
 from tensorflow.keras.losses import *
 from tensorflow.keras.initializers import *
 from tensorflow.keras.callbacks import *
-from layerUtils import *
+from .layerUtils import *
 from tensorflow.keras.models import *
 from absl import logging
 
